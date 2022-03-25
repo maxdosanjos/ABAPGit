@@ -3,11 +3,11 @@
  <asx:values>
   <DATA>
    <MASTER_LANGUAGE>E</MASTER_LANGUAGE>
-   <STARTING_FOLDER>/</STARTING_FOLDER>
-   <FOLDER_LOGIC>PREFIX</FOLDER_LOGIC>
+   <FOLDER_LOGIC>FULL</FOLDER_LOGIC>
    <IGNORE>
     <item>/.gitignore</item>
     <item>/LICENSE</item>
+    <item>/README.md</item>
    </IGNORE>
   </DATA>
  </asx:values>
