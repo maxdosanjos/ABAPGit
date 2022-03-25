@@ -1,2 +1,2 @@
 # ABAP
-Desenvolvimentos ABAP utilitários - ABAPGit
+Desenvolvimentos ABAP - ABAPGit
