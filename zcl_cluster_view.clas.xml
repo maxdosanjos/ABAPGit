@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CT-e: Classe p/ Cluster View ALV</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZMM23</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Chave do nível informada já existe</ENTRY>
+     <LENGTH>68</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Erro ao gerar elementos de interface</ENTRY>
+     <LENGTH>72</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Selecione uma linha</ENTRY>
+     <LENGTH>29</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>010</KEY>
+     <ENTRY>Chave do nível inválida</ENTRY>
+     <LENGTH>46</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>ADD_NODES_TREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adiciona os nós ao ALV Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>ADD_REGISTRO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Adiciona os dados para o nivel da Cluster</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>BUILD_NODE_AND_ITEM_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Construir os nós para o ALV Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>CARREGAR_FCAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Carregar FCAT do ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>C_ESTRU_TREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Nome da tabela estrutura Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>FORMATAR_FCAT_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Formatar o catalogo de campos para o Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>FREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Limpar Objetos / Váriáveis</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>GET_COMPONENTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Obtem os componentes, incluse INCLUDES</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>GET_DATA_BY_KEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Obtem os dados pela chave</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>GET_REGISTRO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Obtem dados do registro atualizado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>ON_DBL_CLICK_TREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ao trocar o nó selecionado no Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>ON_ITEM_DOUBLE_CLICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ao clicar duas vezes no item (texto) do Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>ON_NODE_DOUBLE_CLICK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ao clicar duas vezes no nó do Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>REQUISITAR_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requisitar ALV Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>REQUISITAR_TREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requisitar o ALV Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_O_ALV_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_O_ALV_TREE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV Tree</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_O_CONTAINER_SPLT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Container do Divisor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_O_SPLITTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Divisor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_O_STRUCT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Estrutura dos dados com suas chaves</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_T_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>R_T_DATA_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dados do ALV Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>SET_OK_CODE_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Informar o OK Code para o ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>T_FCAT_GRID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Catálogo de campos para controle visor de listas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>T_KEY_ITEM_HIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Histórico de filtro (seleção)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>T_KEY_ITEM_SEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Chave de itens selecionados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>T_SELECTED_ROWS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Controle VLA: linhas de tabela</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>VISUALIZAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Requisitar os elementos GUI (PBO)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>V_VARIANT_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_CLUSTER_VIEW</CLSNAME>
+     <CMPNAME>W_KEY_NIVEL_SEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Nivel selecionado</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
